@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random2Find", "Random2Find\Random2Find.csproj", "{4A2FED9D-5AF3-4F66-93C3-5AC22A7573FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A63271F7-8D61-4436-8C06-FEEF583AFEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random2Find.Tests", "Random2Find.Tests\Random2Find.Tests.csproj", "{8C2BF2EF-C666-4379-AA32-5491050C69C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4689B88E-47AE-4833-83A4-E03B60CC20DC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A2FED9D-5AF3-4F66-93C3-5AC22A7573FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2FED9D-5AF3-4F66-93C3-5AC22A7573FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2FED9D-5AF3-4F66-93C3-5AC22A7573FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2FED9D-5AF3-4F66-93C3-5AC22A7573FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2BF2EF-C666-4379-AA32-5491050C69C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2BF2EF-C666-4379-AA32-5491050C69C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2BF2EF-C666-4379-AA32-5491050C69C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2BF2EF-C666-4379-AA32-5491050C69C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C2BF2EF-C666-4379-AA32-5491050C69C3} = {A63271F7-8D61-4436-8C06-FEEF583AFEB2}
+	EndGlobalSection
+EndGlobal
