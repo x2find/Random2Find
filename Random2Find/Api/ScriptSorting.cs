@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using EPiServer.Find.Api.Querying;
 using EPiServer.Find.Api;
+using EPiServer.Find.Api.Querying.Queries;
 using Newtonsoft.Json;
 
 namespace Random2Find.Api
@@ -23,6 +24,8 @@ namespace Random2Find.Api
         }
 
         public string Script { get; set; }
+
+        public ScriptLanguage Language { get; set; }
 
         public ScriptSortType Type { get; set; }
 

@@ -23,6 +23,9 @@ namespace Random2Find.Api
             writer.WritePropertyName("type");
             writer.WriteValue(sorting.Type.ToString().ToLower());
 
+            writer.WritePropertyName("lang");
+            writer.WriteValue(sorting.Language.ToString().ToLower());
+
             if (sorting.Parameters.Any())
             {
                 writer.WritePropertyName("params");

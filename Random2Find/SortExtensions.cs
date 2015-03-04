@@ -5,6 +5,7 @@ using System.Text;
 using EPiServer.Find;
 using EPiServer.Find.Api.Querying;
 using EPiServer.Find.Api;
+using EPiServer.Find.Api.Querying.Queries;
 using Random2Find.Api;
 
 namespace Random2Find
@@ -22,7 +23,8 @@ namespace Random2Find
                 {
                     context.RequestBody.Sort.Add(new ScriptSorting()
                     {
-                        Script = "random()",
+                        Script = "randomvaluegenerator",
+                        Language = ScriptLanguage.Native,
                         Type = ScriptSortType.Number
                     });
                 });
